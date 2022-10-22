@@ -12,4 +12,15 @@
 (write (* (+ 1 2) (- 3 4)))
 (terpri)
 
+(defvar x T)
+(if x (format t "yes") (format t "no"))
+(terpri)
+
+(defvar y NIL)
+(if y (format t "yes") (format t "no"))
+(terpri)
+
 ;https://gigamonkeys.com/book/syntax-and-semantics.html
+
+(format t "Enter here: ")
+(format t (read-line))
