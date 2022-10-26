@@ -20,7 +20,11 @@
 (if y (format t "yes") (format t "no"))
 (terpri)
 
+(write 3e2)
+(terpri)
+
 ;https://gigamonkeys.com/book/syntax-and-semantics.html
 
 (format t "Enter here: ")
 (format t (read-line))
+
