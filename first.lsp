@@ -12,11 +12,11 @@
 (write (* (+ 1 2) (- 3 4)))
 (terpri)
 
-(defvar x T)
+(defparameter x T)
 (if x (format t "yes") (format t "no"))
 (terpri)
 
-(defvar y NIL)
+(defparameter y NIL)
 (if y (format t "yes") (format t "no"))
 (terpri)
 
