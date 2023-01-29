@@ -16,12 +16,12 @@
     (print (elt x (- y 1))))
 
 (defun problem4()
-    (setq x (loop for i from 0 below 3 collect (random 10)))
+    (setq x (loop for i from 0 below (random 5) collect (random 10)))
     (print x)
     (print (length x)))
 
 (defun problem5()
-    (setq x (loop for i from 0 below 3 collect (random 10)))
+    (setq x (loop for i from 0 below (random 5) collect (random 10)))
     (print x)
     (print (reverse x)))
 
@@ -44,6 +44,3 @@
             ((= i 8) 
                 (problem8 (list "a" "a" "a" "a" "b" "c" "c" "a" "a" "d" "e" "e" "e" "e")))
             ) (terpri))
-
-;https://sites.google.com/site/prologsite/prolog-problems/1
-;https://www.tutorialspoint.com/lisp/lisp_sequences.htm
