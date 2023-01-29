@@ -44,3 +44,6 @@
             ((= i 8) 
                 (problem8 (list "a" "a" "a" "a" "b" "c" "c" "a" "a" "d" "e" "e" "e" "e")))
             ) (terpri))
+
+;https://sites.google.com/site/prologsite/prolog-problems/1
+;https://www.tutorialspoint.com/lisp/lisp_sequences.htm
