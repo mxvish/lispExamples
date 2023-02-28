@@ -30,8 +30,8 @@
     (setq ans ())
     (loop for i from 0 below (length x) do 
         (unless (numberp (position (elt x i) ans :test #'equal)) 
-            (setq ans (append ans (list (elt x i))))))
-    (print ans))
+            (push (elt x i) ans)))
+    (print (reverse ans)))
 
 (loop for i from 1 to 8 
       do (format t "==== p0~d ====" i)
